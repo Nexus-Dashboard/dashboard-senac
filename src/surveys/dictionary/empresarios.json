@@ -1,0 +1,1397 @@
+{
+  "survey": "empresarios",
+  "source": "Senac Empresários.xlsx",
+  "generatedAt": "2026-10-27T18:11:19.334Z",
+  "variables": {
+    "idEntrevista": {
+      "position": 1,
+      "label": "idEntrevista",
+      "rawLabel": "idEntrevista",
+      "values": {}
+    },
+    "PF1": {
+      "position": 2,
+      "label": "Qual é a sua posição na empresa?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "PF1. Qual é a sua posição na empresa? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Sócio/ Dono/ Proprietário",
+        "2": "Presidente",
+        "3": "CEO",
+        "4": "Vice-presidente",
+        "5": "Gerente geral",
+        "6": "Diretor ou Responsável Financeiro / Controller / Administrativo",
+        "7": "Outros"
+      }
+    },
+    "PF1_t": {
+      "position": 3,
+      "label": "Qual é a sua posição na empresa?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "PF1. Qual é a sua posição na empresa? (ESTIMULADA E ÚNICA)",
+      "values": {}
+    },
+    "PF2_1": {
+      "position": 4,
+      "label": "Em que setor sua empresa atua? (PREENCHIMENTO COM INFORMAÇÕES DO CNPJ E RAZÃO SOCIAL DA EMPRESA)",
+      "rawLabel": "PF2. Em que setor sua empresa atua? (PREENCHIMENTO COM INFORMAÇÕES DO CNPJ E RAZÃO SOCIAL DA EMPRESA)",
+      "values": {}
+    },
+    "DUMCota_CNAE": {
+      "position": 5,
+      "label": "Seleciona CNAE da cota",
+      "rawLabel": "Seleciona CNAE da cota",
+      "values": {
+        "1": "Agentes Autônomos",
+        "2": "Comércio Armazenador",
+        "3": "Comércio Atacadista",
+        "4": "Comércio Varejista",
+        "5": "Prestação de Serviço",
+        "6": "Turismo e Hospitalidade"
+      }
+    },
+    "PF3": {
+      "position": 6,
+      "label": "Quantos funcionários sua empresa tinha no final de 2025?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "PF3. Quantos funcionários sua empresa tinha no final de 2025? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Até 9 funcionários (MICRO)",
+        "2": "10 a 49 funcionários (PEQUENAS)",
+        "3": "50 a 99 funcionários (MÉDIA)",
+        "4": "100 a 499 funcionários (GRANDE)",
+        "5": "500 ou mais funcionários (GRANDE)"
+      }
+    },
+    "PF3_Cota": {
+      "position": 7,
+      "label": "Selecionando cota",
+      "rawLabel": "Selecionando cota",
+      "values": {
+        "1": "Micro/Pequenas",
+        "2": "Médias/Grandes"
+      }
+    },
+    "PF5": {
+      "position": 8,
+      "label": "Há quantos anos sua empresa está em operação?",
+      "instruction": "RU – CAMPO ABERTO PARA ANO",
+      "rawLabel": "PF5. Há quantos anos sua empresa está em operação? (RU – CAMPO ABERTO PARA ANO)",
+      "values": {
+        "1": "Resposta"
+      }
+    },
+    "PF5_t": {
+      "position": 9,
+      "label": "Há quantos anos sua empresa está em operação?",
+      "instruction": "RU – CAMPO ABERTO PARA ANO",
+      "rawLabel": "PF5. Há quantos anos sua empresa está em operação? (RU – CAMPO ABERTO PARA ANO)",
+      "values": {}
+    },
+    "PF6": {
+      "position": 10,
+      "label": "Região da entrevista",
+      "rawLabel": "PF6. Região da entrevista",
+      "values": {
+        "1": "Norte",
+        "2": "Nordeste",
+        "3": "Centro-Oeste",
+        "4": "Sudeste",
+        "5": "Sul"
+      }
+    },
+    "PF7_1": {
+      "position": 11,
+      "label": "Estado da entrevista",
+      "rawLabel": "PF7. Estado da entrevista",
+      "values": {}
+    },
+    "PF8_cod_1": {
+      "position": 12,
+      "label": "Código da cidade",
+      "rawLabel": "Código da cidade",
+      "values": {}
+    },
+    "PF8_1": {
+      "position": 13,
+      "label": "Cidade da entrevista",
+      "rawLabel": "PF8. Cidade da entrevista",
+      "values": {}
+    },
+    "PF9": {
+      "position": 14,
+      "label": "Sexo [APENAS MARCAR] Entrevistador: não perguntar. Controle interno de cota.",
+      "rawLabel": "PF9. Sexo [APENAS MARCAR] Entrevistador: não perguntar. Controle interno de cota.",
+      "values": {
+        "1": "Feminino",
+        "2": "Masculino"
+      }
+    },
+    "P1_1_CAT": {
+      "position": 15,
+      "label": "Quando o(a) senhor(a) pensa em instituições de referência que oferecem cursos profissionalizantes, técnicos e de ensino superior no Brasil, voltados para a capacitação de mão de obra e qualificação profissional, qual é a primeira que lhe vem �F850",
+      "rawLabel": "1. Quando o(a) senhor(a) pensa em instituições de referência que oferecem cursos profissionalizantes, técnicos e de ensino superior no Brasil, voltados para a capacitação de mão de obra e qualificação profissional, qual é a primeira que lhe vem �F850",
+      "values": {
+        "1": "Agências de Estágio e Formação Profissional",
+        "2": "Anhanguera",
+        "3": "Associações e Entidades de Classe",
+        "4": "Esc., Univ. e Orgs. Públicos",
+        "5": "Estácio",
+        "6": "ETEC / CEEP",
+        "7": "Institutos Federais / CEFET",
+        "8": "Não Institucional / Resposta Conceitual / Inváli",
+        "9": "Nenhuma",
+        "10": "NS/NR",
+        "11": "Outras Entidades do Sistema S",
+        "12": "Outras Escolas Técnicas",
+        "13": "Outras Faculdades/Universidades Privadas",
+        "14": "SEBRAE",
+        "15": "SENAC",
+        "16": "SENAI",
+        "17": "SESC",
+        "18": "SESI"
+      }
+    },
+    "P3_1": {
+      "position": 16,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_2": {
+      "position": 17,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_3": {
+      "position": 18,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_4": {
+      "position": 19,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_5": {
+      "position": 20,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_6": {
+      "position": 21,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_7": {
+      "position": 22,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_8": {
+      "position": 23,
+      "label": "Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "rawLabel": "3. Vou citar o nome de algumas instituições e gostaria de saber qual é o grau de conhecimento que o(a) senhor(a) tem sobre a atuação de cada uma delas. O(A) senhor(a) diria que conhece muito bem, conhece bem, conhece um pouco, conhece só de ou",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_1": {
+      "position": 24,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_2": {
+      "position": 25,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_3": {
+      "position": 26,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_4": {
+      "position": 27,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_5": {
+      "position": 28,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_6": {
+      "position": 29,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_7": {
+      "position": 30,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_8": {
+      "position": 31,
+      "label": "O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA)",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "4. O quanto o(a) senhor(a) diria que confia em cada uma dessas instituições? (LER ESCALA) (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P6": {
+      "position": 32,
+      "label": "Pensando nas instituições que oferecem educação profissional no Brasil, na sua opinião, qual é o principal diferencial ou vantagem que o SENAC tem em relação aos seus concorrentes de mercado?",
+      "instruction": "ESPONTÂNEA E ÚNICA",
+      "rawLabel": "6. Pensando nas instituições que oferecem educação profissional no Brasil, na sua opinião, qual é o principal diferencial ou vantagem que o SENAC tem em relação aos seus concorrentes de mercado? (ESPONTÂNEA E ÚNICA)",
+      "values": {
+        "1": "Resposta",
+        "2": "Nenhum",
+        "3": "NS/NR"
+      }
+    },
+    "P8": {
+      "position": 33,
+      "label": "Baseado em seus conhecimentos e no que ouviu falar sobre o SENAC, qual das alternativas abaixo mais se aproxima da percepção que possui da entidade? O(a) senhor(a) diria que ela é positiva ou negativa? Muito ou um pouco?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "8. Baseado em seus conhecimentos e no que ouviu falar sobre o SENAC, qual das alternativas abaixo mais se aproxima da percepção que possui da entidade? O(a) senhor(a) diria que ela é positiva ou negativa? Muito ou um pouco? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P9_1_1": {
+      "position": 34,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1_2": {
+      "position": 35,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1_3": {
+      "position": 36,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1_4": {
+      "position": 37,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1_5": {
+      "position": 38,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1_6": {
+      "position": 39,
+      "label": "Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "rawLabel": "9.1 Vou citar algumas áreas de atuação. Para cada uma, gostaria que o(a) senhor(a) me dissesse o quanto associa ou não associa ao SENAC. Utilize uma escala de 0 a 10 em que 0 significa que “não associa nada” e 10 significa que “associa to",
+      "values": {
+        "1": "0 – Não associa nada",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10 – Associa totalmente",
+        "12": "NS/NR"
+      }
+    },
+    "P9_1": {
+      "position": 40,
+      "label": "Na sua opinião, qual o grau de importância do SENAC hoje para _________?",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "9. Na sua opinião, qual o grau de importância do SENAC hoje para _________ (LER ITENS)? (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "P9_2": {
+      "position": 41,
+      "label": "Na sua opinião, qual o grau de importância do SENAC hoje para _________?",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "9. Na sua opinião, qual o grau de importância do SENAC hoje para _________ (LER ITENS)? (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "P9_3": {
+      "position": 42,
+      "label": "Na sua opinião, qual o grau de importância do SENAC hoje para _________?",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "9. Na sua opinião, qual o grau de importância do SENAC hoje para _________ (LER ITENS)? (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "P9_4": {
+      "position": 43,
+      "label": "Na sua opinião, qual o grau de importância do SENAC hoje para _________?",
+      "instruction": "ESTIMULADA E ÚNICA POR LINHA",
+      "rawLabel": "9. Na sua opinião, qual o grau de importância do SENAC hoje para _________ (LER ITENS)? (ESTIMULADA E ÚNICA POR LINHA)",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "P10_1": {
+      "position": 44,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_2": {
+      "position": 45,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_3": {
+      "position": 46,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_4": {
+      "position": 47,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_5": {
+      "position": 48,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_6": {
+      "position": 49,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_7": {
+      "position": 50,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_8": {
+      "position": 51,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_9": {
+      "position": 52,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_10": {
+      "position": 53,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_11": {
+      "position": 54,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_12": {
+      "position": 55,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_13": {
+      "position": 56,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_14": {
+      "position": 57,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_15": {
+      "position": 58,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_16": {
+      "position": 59,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_17": {
+      "position": 60,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_18": {
+      "position": 61,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P10_19": {
+      "position": 62,
+      "label": "Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "rawLabel": "10. Agora, vou ler alguns atributos e gostaria que me dissesse o quanto concorda ou discorda que o SENAC possui cada um deles. Vamos utilizar uma escala de 1 a 5, em que 1 significa que o(a) senhor(a) “discorda totalmente” e 5 significa que �",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P11_1_1": {
+      "position": 63,
+      "label": "Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição?",
+      "instruction": "ESTIMULADA",
+      "rawLabel": "11.1. Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição? (ESTIMULADA)",
+      "values": {
+        "1": "Gestão, Governança e Confiança",
+        "2": "Impacto Social e Cidadania",
+        "3": "Excelência em Produtos e Serviços",
+        "4": "Educação a Distância (EAD)",
+        "5": "Comunicação e Relacionamento",
+        "6": "Futuro do trabalho e inovação",
+        "7": "Nenhum desses",
+        "8": "NS/NR"
+      }
+    },
+    "P11_1_2": {
+      "position": 64,
+      "label": "E em segundo lugar?",
+      "instruction": "ESTIMULADA",
+      "rawLabel": "11.1. E em segundo lugar? (ESTIMULADA)",
+      "values": {
+        "1": "Gestão, Governança e Confiança",
+        "2": "Impacto Social e Cidadania",
+        "3": "Excelência em Produtos e Serviços",
+        "4": "Educação a Distância (EAD)",
+        "5": "Comunicação e Relacionamento",
+        "6": "Futuro do trabalho e inovação",
+        "7": "Nenhum desses",
+        "8": "NS/NR"
+      }
+    },
+    "P11_2": {
+      "position": 65,
+      "label": "Em uma escala de 0 a 10, em que 0 significa “definitivamente não recomendaria” e 10 significa “definitivamente recomendaria”, qual a probabilidade de o(a) senhor(a) recomendar o SENAC como referência em qualificação profissional pa",
+      "rawLabel": "11.2. Em uma escala de 0 a 10, em que 0 significa “definitivamente não recomendaria” e 10 significa “definitivamente recomendaria”, qual a probabilidade de o(a) senhor(a) recomendar o SENAC como referência em qualificação profissional pa",
+      "values": {
+        "1": "0",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7",
+        "9": "8",
+        "10": "9",
+        "11": "10",
+        "12": "NS/NR"
+      }
+    },
+    "P11": {
+      "position": 66,
+      "label": "Qual das duas frases abaixo melhor define a forma como o(a) senhor(a) enxerga o SENAC hoje?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "11. Qual das duas frases abaixo melhor define a forma como o(a) senhor(a) enxerga o SENAC hoje? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "O SENAC é uma força estratégica que impulsiona o desenvolvimento e a qualificação da minha empresa",
+        "2": "O SENAC é apenas mais uma escola de mercado que vende cursos profissionalizantes",
+        "3": "Nenhuma dessas",
+        "4": "NS/NR"
+      }
+    },
+    "P13": {
+      "position": 67,
+      "label": "A sua empresa já teve ou possui algum tipo de relacionamento, parceria ou contato com o SENAC?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "13. A sua empresa já teve ou possui algum tipo de relacionamento, parceria ou contato com o SENAC? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Sim",
+        "2": "Não",
+        "3": "NS/NR"
+      }
+    },
+    "P14_1": {
+      "position": 68,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_2": {
+      "position": 69,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_3": {
+      "position": 70,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_4": {
+      "position": 71,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_5": {
+      "position": 72,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_6": {
+      "position": 73,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P14_6_t": {
+      "position": 74,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {}
+    },
+    "P14_98": {
+      "position": 75,
+      "label": "E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso",
+      "instruction": "ESTIMULADA E MÚLTIPLA",
+      "rawLabel": "14. E qual ou quais tipos de relacionamento a sua empresa já teve ou tem com o SENAC? Vou ler algumas opções e o(a) senhor(a) pode informar mais de uma, se for o caso: (ESTIMULADA E MÚLTIPLA)",
+      "values": {
+        "1": "Já contratamos cursos ou treinamentos para os nossos funcionários atuais",
+        "2": "Já contratamos jovens aprendizes vindos do SENAC",
+        "3": "Já contratamos ex-alunos do SENAC que se candidataram no nosso processo seletivo",
+        "4": "Já participamos de palestras, workshops ou eventos gratuitos promovidos pelo SENAC",
+        "5": "Já utilizamos o SENAC para divulgar nossas vagas de emprego disponíveis",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P15_1": {
+      "position": 76,
+      "label": "De modo geral, pensando na experiência que sua empresa teve com as soluções corporativas do SENAC, qual foi o principal impacto gerado para o seu negócio?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "15.1. De modo geral, pensando na experiência que sua empresa teve com as soluções corporativas do SENAC, qual foi o principal impacto gerado para o seu negócio? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Aumento da produtividade / Melhoria nos processos internos",
+        "2": "Melhoria no atendimento / Aumento de vendas e faturamento",
+        "3": "Redução de erros / Desperdícios / Custos operacionais",
+        "4": "Atualização tecnológica / Inovação na empresa",
+        "5": "Motivação / Engajamento / Redução de turnover da equipe",
+        "6": "Outro",
+        "7": "Não gerou impacto perceptível para o negócio",
+        "8": "NS/NR"
+      }
+    },
+    "P19_1": {
+      "position": 77,
+      "label": "Agora pensando no futuro, qual é a PRINCIPAL ação que o SENAC precisaria priorizar para impulsionar de forma ideal a competitividade da sua empresa?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "19.1. Agora pensando no futuro, qual é a PRINCIPAL ação que o SENAC precisaria priorizar para impulsionar de forma ideal a competitividade da sua empresa? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Mais agilidade e rapidez no atendimento e na entrega das soluções",
+        "2": "Maior customização dos conteúdos para a realidade do seu segmento",
+        "3": "Preços e condições comerciais mais competitivos para empresas",
+        "4": "Acompanhamento pós-serviço (saber se o curso/consultoria gerou resultado na empresa)",
+        "5": "Uso de tecnologias mais modernas e inovadoras nos treinamentos",
+        "6": "Garantir que as soluções gerem impacto prático na produtividade ou no faturamento da empresa",
+        "7": "Nenhum desses",
+        "8": "NS/NR"
+      }
+    },
+    "P19": {
+      "position": 78,
+      "label": "De um modo geral, sobre os serviços oferecidos pelo SENAC, o(a) senhor(a) se considera muito informado(a), informado(a), mais ou menos informado(a), pouco informado(a) ou nada informado(a)?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "19. De um modo geral, sobre os serviços oferecidos pelo SENAC, o(a) senhor(a) se considera muito informado(a), informado(a), mais ou menos informado(a), pouco informado(a) ou nada informado(a)? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Muito informado(a)",
+        "2": "Informado(a)",
+        "3": "Mais ou menos informado(a)",
+        "4": "Pouco informado(a)",
+        "5": "Nada informado(a)",
+        "6": "NS/NR"
+      }
+    },
+    "P20_1": {
+      "position": 79,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_2": {
+      "position": 80,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_3": {
+      "position": 81,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_4": {
+      "position": 82,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_5": {
+      "position": 83,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_6": {
+      "position": 84,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_7": {
+      "position": 85,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_8": {
+      "position": 86,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P20_9": {
+      "position": 87,
+      "label": "O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "rawLabel": "20. O SENAC oferece diferentes soluções para o mercado corporativo. Vou citar alguns desses serviços. Para cada um, por favor, me diga primeiro o quanto o(a) senhor(a) conhece e, depois, o interesse da sua empresa em contratar esse serviço atual",
+      "values": {
+        "1": "Conhece e tem interesse",
+        "2": "Conhece, mas não tem interesse",
+        "3": "Não conhece, mas tem interesse",
+        "4": "Não conhece e não tem interesse",
+        "5": "NS/NR"
+      }
+    },
+    "P21_1": {
+      "position": 88,
+      "label": "Pensando nos próximos 6 meses, qual das alternativas abaixo melhor descreve a intenção da sua empresa em investir em qualificação ou desenvolvimento de equipes?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "21.1. Pensando nos próximos 6 meses, qual das alternativas abaixo melhor descreve a intenção da sua empresa em investir em qualificação ou desenvolvimento de equipes? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Já temos orçamento aprovado e estamos buscando fornecedor",
+        "2": "Temos intenção, mas ainda sem orçamento aprovado",
+        "3": "Depende da oferta e das condições apresentadas",
+        "4": "Não há previsão de investimento nesse período",
+        "5": "Nenhuma dessas",
+        "6": "NS/NR"
+      }
+    },
+    "P23": {
+      "position": 89,
+      "label": "Pensando em um eventual treinamento das suas equipes atuais, qual formato de curso o(a) senhor(a) teria maior propensão a investir ou apoiar nos próximos meses?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "23. Pensando em um eventual treinamento das suas equipes atuais, qual formato de curso o(a) senhor(a) teria maior propensão a investir ou apoiar nos próximos meses? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Cursos 100% presenciais",
+        "2": "Cursos 100% online / EAD",
+        "3": "Modelos híbridos (parte online, parte presencial)",
+        "4": "Minha empresa não pretende investir em treinamentos nos próximos meses",
+        "5": "NS/NR"
+      }
+    },
+    "P26": {
+      "position": 90,
+      "label": "Qual seria a maior barreira ou receio que o(a) senhor(a) possui ao pensar em adotar treinamentos via EAD (Educação a Distância) para os seus colaboradores?",
+      "instruction": "ESPONTÂNEA E ÚNICA – OPÇÕES PRÉ-CATEGORIZADAS, NÃO SERÃO LIDAS",
+      "rawLabel": "26. Qual seria a maior barreira ou receio que o(a) senhor(a) possui ao pensar em adotar treinamentos via EAD (Educação a Distância) para os seus colaboradores? (ESPONTÂNEA E ÚNICA – OPÇÕES PRÉ-CATEGORIZADAS, NÃO SERÃO LIDAS)",
+      "values": {
+        "1": "Falta de foco / Distração dos funcionários",
+        "2": "Falta de atividades práticas",
+        "3": "Baixo engajamento / Desmotivação",
+        "4": "Dificuldade com tecnologia / Acesso à internet",
+        "5": "Qualidade inferior ao presencial",
+        "6": "Dificuldade de mensurar o resultado prático para o negócio",
+        "7": "Falta de interação/networking",
+        "8": "Falta de tempo dos colaboradores",
+        "9": "Outro",
+        "10": "Não possui nenhuma barreira/receio",
+        "11": "NS/NR"
+      }
+    },
+    "P27": {
+      "position": 91,
+      "label": "Na sua visão como empresário(a), quando um candidato ou funcionário apresenta um certificado do SENAC, qual o peso ou a importância que esse certificado/diploma tem na sua decisão de contratá-lo ou promovê-lo? O(A) senhor(a) diria que tem",
+      "rawLabel": "27. Na sua visão como empresário(a), quando um candidato ou funcionário apresenta um certificado do SENAC, qual o peso ou a importância que esse certificado/diploma tem na sua decisão de contratá-lo ou promovê-lo? O(A) senhor(a) diria que tem",
+      "values": {
+        "1": "Muita importância",
+        "2": "Alguma importância",
+        "3": "Pouca importância",
+        "4": "Nenhuma importância",
+        "5": "NS/NR"
+      }
+    },
+    "P31_1": {
+      "position": 92,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_2": {
+      "position": 93,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_3": {
+      "position": 94,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_4": {
+      "position": 95,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_5": {
+      "position": 96,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_6": {
+      "position": 97,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_7": {
+      "position": 98,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_91": {
+      "position": 99,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_97": {
+      "position": 100,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "P31_99": {
+      "position": 101,
+      "label": "Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "rawLabel": "31. Por quais canais de comunicação a sua empresa preferiria receber novidades, ofertas de cursos ou propostas corporativas de instituições como o SENAC? (MÚLTIPLA, ATÉ 2)",
+      "values": {
+        "1": "E-mail corporativo",
+        "2": "WhatsApp Business",
+        "3": "Redes sociais focadas em negócios (como LinkedIn)",
+        "4": "Visita comercial presencial (de um consultor/representante do SENAC)",
+        "5": "Contato telefônico direto",
+        "6": "Através de Associações Comerciais, CDLs (Câmaras de Dirigentes Lojistas) ou Sindicatos do seu setor",
+        "7": "Em feiras, eventos de negócios e convenções do setor",
+        "8": "Outro",
+        "9": "Nenhum/Não tem interesse em receber nenhum tipo de contato",
+        "10": "NS/NR"
+      }
+    },
+    "weights": {
+      "position": 102,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "tamanho_cotas": {
+      "position": 103,
+      "label": "",
+      "rawLabel": "",
+      "values": {
+        "1": "Pequenas",
+        "2": "Médias/Grandes"
+      }
+    }
+  }
+}

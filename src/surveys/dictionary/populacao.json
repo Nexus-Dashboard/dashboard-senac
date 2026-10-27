@@ -1,0 +1,1790 @@
+{
+  "survey": "populacao",
+  "source": "Senac Dash.xlsx",
+  "generatedAt": "2026-10-27T18:11:19.302Z",
+  "variables": {
+    "SbjNum": {
+      "position": 1,
+      "label": "SbjNum",
+      "rawLabel": "SbjNum",
+      "values": {}
+    },
+    "PF1": {
+      "position": 2,
+      "label": "Sexo",
+      "rawLabel": "Sexo:",
+      "values": {
+        "1": "Feminino",
+        "2": "Masculino"
+      }
+    },
+    "PF2": {
+      "position": 3,
+      "label": "Quantos anos você tem?",
+      "rawLabel": "Quantos anos você tem?",
+      "values": {}
+    },
+    "IDADE": {
+      "position": 4,
+      "label": "Quantos anos você tem?",
+      "rawLabel": "Quantos anos você tem?",
+      "values": {
+        "1": "Até 15 anos",
+        "2": "16 a 17 anos",
+        "3": "18 a 24 anos",
+        "4": "25 a 34 anos",
+        "5": "35 a 44 anos",
+        "6": "45 a 59 anos",
+        "7": "60 anos ou mais"
+      }
+    },
+    "PF3": {
+      "position": 5,
+      "label": "Qual é seu grau de escolaridade?",
+      "rawLabel": "Qual é seu grau de escolaridade?",
+      "values": {
+        "1": "Analfabeto",
+        "2": "Sabe ler e escrever",
+        "3": "Ensino Fundamental Incompleto",
+        "4": "Ensino Fundamental Completo",
+        "5": "Ensino Médio Incompleto",
+        "6": "Ensino Médio Completo",
+        "7": "Ensino Superior Incompleto",
+        "8": "Ensino Superior Completo",
+        "9": "Pós Graduado: Especialização, Mestrado ou Doutorado"
+      }
+    },
+    "PF3_1": {
+      "position": 6,
+      "label": "Como você se define em termos de gênero?",
+      "rawLabel": "Como você se define em termos de gênero?",
+      "values": {
+        "1": "Homem cisgênero: é quem se identifica com o mesmo gênero atribuído no nascimento.",
+        "2": "Mulher cisgênero: é quem se identifica com o mesmo gênero atribuído no nascimento.",
+        "3": "Homem transgênero: é quem se identifica com um gênero diferente daquele atribuído no nascimento.",
+        "4": "Mulher transgênero: é quem se identifica com um gênero diferente daquele atribuído no nascimento.",
+        "5": "Não-binário: é alguém que não se identifica completamente com o “gênero de nascença” nem com outro gênero. E",
+        "6": "Nenhuma das opções",
+        "7": "Prefiro não declarar"
+      }
+    },
+    "PF3_2": {
+      "position": 7,
+      "label": "Você se sente à vontade para identificar sua orientação sexual nesta pesquisa?",
+      "rawLabel": "Você se sente à vontade para identificar sua orientação sexual nesta pesquisa?",
+      "values": {
+        "1": "Sim",
+        "2": "Não"
+      }
+    },
+    "PF3_3": {
+      "position": 8,
+      "label": "Qual a sua orientação sexual?",
+      "rawLabel": "Qual a sua orientação sexual?",
+      "values": {
+        "1": "Heterossexual: atração por pessoas do sexo oposto.",
+        "2": "Homossexual: atração por pessoas do mesmo sexo.",
+        "3": "Bissexual: atração por ambos os sexos.",
+        "4": "Assexual: atração por nenhum sexo. Embora a pessoa não sinta desejo sexual, é capaz de manter um relacionamento amor",
+        "5": "Pansexual: atração por pessoas, independentemente do sexo.",
+        "6": "Outra. Qual?"
+      }
+    },
+    "PF3_3_OUT": {
+      "position": 9,
+      "label": "Qual orientação?",
+      "rawLabel": "Qual orientação?",
+      "values": {}
+    },
+    "PF4_1": {
+      "position": 10,
+      "label": "Atualmente você desempenha algum trabalho remunerado?",
+      "rawLabel": "Atualmente você desempenha algum trabalho remunerado?",
+      "values": {
+        "1": "Sim, desempenho um trabalho remunerado",
+        "2": "Não, não desempenho trabalho remunerado"
+      }
+    },
+    "PF5_1": {
+      "position": 11,
+      "label": "E como você classifica esse trabalho remunerado?",
+      "rawLabel": "E como você classifica esse trabalho remunerado?",
+      "values": {
+        "1": "Sou empregado do setor público",
+        "2": "Sou empregado do setor privado",
+        "3": "Sou trabalhador doméstico",
+        "4": "Microempreendedor Individual – MEI",
+        "5": "Sou empresário",
+        "6": "Trabalho por conta própria"
+      }
+    },
+    "PF6": {
+      "position": 12,
+      "label": "E nesse trabalho você tem um vínculo formal de trabalho?",
+      "rawLabel": "E nesse trabalho você tem um vínculo formal de trabalho?",
+      "values": {
+        "1": "Sim, tenho carteira assinada, CLT",
+        "2": "Sim, sou servidor público estatutário",
+        "3": "Não, sou trabalhador informal, sem carteira assinada"
+      }
+    },
+    "PF7_1": {
+      "position": 13,
+      "label": "E você possui CNPJ para desenvolver sua atividade como empresário ou trabalhador por conta própria?",
+      "rawLabel": "E você possui CNPJ para desenvolver sua atividade como empresário ou trabalhador por conta própria?",
+      "values": {
+        "1": "Sim, possuo CNPJ",
+        "2": "Não, não possuo CNPJ"
+      }
+    },
+    "PF8_1": {
+      "position": 14,
+      "label": "E você é aposentado, pensionista, estudante, dono(a) de casa ou atualmente está desempregado?",
+      "rawLabel": "E você é aposentado, pensionista, estudante, dono(a) de casa ou atualmente está desempregado?",
+      "values": {
+        "1": "Aposentado",
+        "2": "Pensionista",
+        "3": "Estudante",
+        "4": "Dono(a) de casa",
+        "5": "Desempregado"
+      }
+    },
+    "PF9_1": {
+      "position": 15,
+      "label": "E você procurou emprego nos últimos trinta dias, sim ou não?",
+      "rawLabel": "E você procurou emprego nos últimos trinta dias, sim ou não?",
+      "values": {
+        "1": "Sim",
+        "2": "Não"
+      }
+    },
+    "PEA": {
+      "position": 16,
+      "label": "PEA",
+      "rawLabel": "PEA",
+      "values": {
+        "1": "PEA",
+        "2": "Não PEA"
+      }
+    },
+    "PF9_2": {
+      "position": 17,
+      "label": "E qual o setor do seu trabalho principal?",
+      "rawLabel": "E qual o setor do seu trabalho principal?",
+      "values": {
+        "1": "Agricultura (lavouras, fruticultura, floricultura, hortaliças etc.)",
+        "2": "Atividade florestal",
+        "3": "Extrativismo",
+        "4": "Pecuária",
+        "5": "Construção civil",
+        "6": "Gastronomia/Hotelaria",
+        "7": "Indústria/Fabricação",
+        "8": "Comércio/Varejo/Atacado",
+        "9": "Pesca",
+        "10": "Aquicultura",
+        "11": "Transporte/Turismo",
+        "12": "Cooperativa/ONGs/Empresas do terceiro setor",
+        "13": "Outros"
+      }
+    },
+    "PF4": {
+      "position": 18,
+      "label": "Em qual estado você mora?",
+      "rawLabel": "Em qual estado você mora?",
+      "values": {
+        "1": "Acre",
+        "2": "Alagoas",
+        "3": "Amapá",
+        "4": "Amazonas",
+        "5": "Bahia",
+        "6": "Ceará",
+        "7": "Distrito Federal",
+        "8": "Espírito Santo",
+        "9": "Goiás",
+        "10": "Maranhão",
+        "11": "Mato Grosso",
+        "12": "Mato Grosso do Sul",
+        "13": "Minas Gerais",
+        "14": "Pará",
+        "15": "Paraíba",
+        "16": "Paraná",
+        "17": "Pernambuco",
+        "18": "Piauí",
+        "19": "Rio de Janeiro",
+        "20": "Rio Grande do Norte",
+        "21": "Rio Grande do Sul",
+        "22": "Rondônia",
+        "23": "Roraima",
+        "24": "Santa Catarina",
+        "25": "São Paulo",
+        "26": "Sergipe",
+        "27": "Tocantins"
+      }
+    },
+    "PF5": {
+      "position": 19,
+      "label": "E em qual cidade você mora?",
+      "rawLabel": "E em qual cidade você mora?",
+      "values": {}
+    },
+    "T_P1_1_CAT": {
+      "position": 20,
+      "label": "Vamos começar a pesquisa... Quando o(a) senhor(a) pensa em instituições de referência que oferecem cursos profissionalizantes, técnicos e de ensino superior no Brasil, voltados para a capacitação de mão de obra e qualificação profissional, qual F8.2",
+      "rawLabel": "Vamos começar a pesquisa... Quando o(a) senhor(a) pensa em instituições de referência que oferecem cursos profissionalizantes, técnicos e de ensino superior no Brasil, voltados para a capacitação de mão de obra e qualificação profissional, qual F8.2",
+      "values": {
+        "1": "Anhanguera",
+        "2": "Escolas, Universidades e Orgãos públicos",
+        "3": "Estácio",
+        "4": "ETEC / CEEP",
+        "5": "FIRJAN / FIERGS",
+        "6": "Institutos Federais / CEFET",
+        "7": "NENHUMA",
+        "8": "NS/NR",
+        "9": "Outras Entidades do Sistema S",
+        "10": "Outras Escolas Técnicas / Cursos Livres",
+        "11": "Outras Faculdades/Universidades Privadas",
+        "12": "SEBRAE",
+        "13": "SENAC",
+        "14": "SENAI",
+        "15": "SESC",
+        "16": "SESI",
+        "17": "Uninter"
+      }
+    },
+    "P3_1": {
+      "position": 21,
+      "label": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "rawLabel": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_2": {
+      "position": 22,
+      "label": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "rawLabel": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_3": {
+      "position": 23,
+      "label": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "rawLabel": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_4": {
+      "position": 24,
+      "label": "Estácio (Ensino Digital / EAD)",
+      "rawLabel": "Estácio (Ensino Digital / EAD)",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_5": {
+      "position": 25,
+      "label": "Uninter (Centro Universitário Internacional)",
+      "rawLabel": "Uninter (Centro Universitário Internacional)",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_6": {
+      "position": 26,
+      "label": "Descomplica",
+      "rawLabel": "Descomplica",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_7": {
+      "position": 27,
+      "label": "Udemy",
+      "rawLabel": "Udemy",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P3_8": {
+      "position": 28,
+      "label": "Anhanguera",
+      "rawLabel": "Anhanguera",
+      "values": {
+        "1": "Conhece muito bem",
+        "2": "Conhece bem",
+        "3": "Conhece um pouco",
+        "4": "Conhece só de ouvir falar",
+        "5": "Não conhece nada",
+        "6": "NS/NR"
+      }
+    },
+    "P4_1": {
+      "position": 29,
+      "label": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "rawLabel": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_2": {
+      "position": 30,
+      "label": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "rawLabel": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_3": {
+      "position": 31,
+      "label": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "rawLabel": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_4": {
+      "position": 32,
+      "label": "Estácio (Ensino Digital / EAD)",
+      "rawLabel": "Estácio (Ensino Digital / EAD)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_5": {
+      "position": 33,
+      "label": "Uninter (Centro Universitário Internacional)",
+      "rawLabel": "Uninter (Centro Universitário Internacional)",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_6": {
+      "position": 34,
+      "label": "Descomplica",
+      "rawLabel": "Descomplica",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_7": {
+      "position": 35,
+      "label": "Udemy",
+      "rawLabel": "Udemy",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P4_8": {
+      "position": 36,
+      "label": "Anhanguera",
+      "rawLabel": "Anhanguera",
+      "values": {
+        "1": "Muito positiva",
+        "2": "Um pouco positiva",
+        "3": "Nem positiva, nem negativa",
+        "4": "Um pouco negativa",
+        "5": "Muito negativa",
+        "6": "NS/NR"
+      }
+    },
+    "P6_1": {
+      "position": 37,
+      "label": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "rawLabel": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_2": {
+      "position": 38,
+      "label": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "rawLabel": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_3": {
+      "position": 39,
+      "label": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "rawLabel": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_4": {
+      "position": 40,
+      "label": "Estácio (Ensino Digital / EAD)",
+      "rawLabel": "Estácio (Ensino Digital / EAD)",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_5": {
+      "position": 41,
+      "label": "Uninter (Centro Universitário Internacional)",
+      "rawLabel": "Uninter (Centro Universitário Internacional)",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_6": {
+      "position": 42,
+      "label": "Descomplica",
+      "rawLabel": "Descomplica",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_7": {
+      "position": 43,
+      "label": "Udemy",
+      "rawLabel": "Udemy",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P6_8": {
+      "position": 44,
+      "label": "Anhanguera",
+      "rawLabel": "Anhanguera",
+      "values": {
+        "1": "Muito favorável",
+        "2": "Favorável",
+        "3": "Nem a favor, nem contra",
+        "4": "Desfavorável",
+        "5": "Muito desfavorável",
+        "6": "NS/NR"
+      }
+    },
+    "P7_1": {
+      "position": 45,
+      "label": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "rawLabel": "SENAC (Serviço Nacional de Aprendizagem Comercial)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_2": {
+      "position": 46,
+      "label": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "rawLabel": "SENAI (Serviço Nacional de Aprendizagem Industrial)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_3": {
+      "position": 47,
+      "label": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "rawLabel": "SEBRAE (Serviço de Apoio às Micro e Pequenas Empresas)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_4": {
+      "position": 48,
+      "label": "Estácio (Ensino Digital / EAD)",
+      "rawLabel": "Estácio (Ensino Digital / EAD)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_5": {
+      "position": 49,
+      "label": "Uninter (Centro Universitário Internacional)",
+      "rawLabel": "Uninter (Centro Universitário Internacional)",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_6": {
+      "position": 50,
+      "label": "Descomplica",
+      "rawLabel": "Descomplica",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_7": {
+      "position": 51,
+      "label": "Udemy",
+      "rawLabel": "Udemy",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P7_8": {
+      "position": 52,
+      "label": "Anhanguera",
+      "rawLabel": "Anhanguera",
+      "values": {
+        "1": "Confia totalmente",
+        "2": "Confia parcialmente",
+        "3": "Não confia, nem desconfia",
+        "4": "Não confia muito",
+        "5": "Não confia nada",
+        "6": "NS/NR"
+      }
+    },
+    "P11": {
+      "position": 53,
+      "label": "De um modo geral, sobre os serviços oferecidos pelo SENAC, o(a) senhor(a) se considera muito informado(a), informado(a), mais ou menos informado(a), pouco informado(a) ou nada informado(a)?",
+      "instruction": "ESTIMULADA E ÚNICA",
+      "rawLabel": "De um modo geral, sobre os serviços oferecidos pelo SENAC, o(a) senhor(a) se considera muito informado(a), informado(a), mais ou menos informado(a), pouco informado(a) ou nada informado(a)? (ESTIMULADA E ÚNICA)",
+      "values": {
+        "1": "Muito informado(a)",
+        "2": "Informado(a)",
+        "3": "Mais ou menos informado(a)",
+        "4": "Pouco informado(a)",
+        "5": "Nada informado(a)",
+        "6": "NS/NR"
+      }
+    },
+    "T_P12_1": {
+      "position": 54,
+      "label": "O desenvolvimento da população geral e dos cidadãos",
+      "rawLabel": "O desenvolvimento da população geral e dos cidadãos",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "T_P12_2": {
+      "position": 55,
+      "label": "A formação de mão de obra qualificada para o mercado de trabalho",
+      "rawLabel": "A formação de mão de obra qualificada para o mercado de trabalho",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "T_P12_3": {
+      "position": 56,
+      "label": "O crescimento e competitividade das empresas do comércio, serviços e turismo",
+      "rawLabel": "O crescimento e competitividade das empresas do comércio, serviços e turismo",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "T_P12_4": {
+      "position": 57,
+      "label": "Você e sua família",
+      "rawLabel": "Você e sua família",
+      "values": {
+        "1": "Muito importante",
+        "2": "Importante",
+        "3": "Mais ou menos importante",
+        "4": "Pouco importante",
+        "5": "Nada importante",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_1": {
+      "position": 58,
+      "label": "É sólida e transmite confiança",
+      "rawLabel": "É sólida e transmite confiança",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_2": {
+      "position": 59,
+      "label": "É transparente e ética",
+      "rawLabel": "É transparente e ética",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_3": {
+      "position": 60,
+      "label": "É bem administrada e eficiente no uso de recursos",
+      "rawLabel": "É bem administrada e eficiente no uso de recursos",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_4": {
+      "position": 61,
+      "label": "Contribui para o desenvolvimento social da população",
+      "rawLabel": "Contribui para o desenvolvimento social da população",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_5": {
+      "position": 62,
+      "label": "Promove a transformação de vidas por meio da educação profissional",
+      "rawLabel": "Promove a transformação de vidas por meio da educação profissional",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_6": {
+      "position": 63,
+      "label": "Oferece cursos modernos, atualizados e conectados com a realidade do mercado atual",
+      "rawLabel": "Oferece cursos modernos, atualizados e conectados com a realidade do mercado atual",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_7": {
+      "position": 64,
+      "label": "Forma profissionais prontos para os desafios e exigências do dia a dia das empresas",
+      "rawLabel": "Forma profissionais prontos para os desafios e exigências do dia a dia das empresas",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_8": {
+      "position": 65,
+      "label": "Possui uma oferta completa de cursos e serviços que atendem às necessidades do mercado",
+      "rawLabel": "Possui uma oferta completa de cursos e serviços que atendem às necessidades do mercado",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_9": {
+      "position": 66,
+      "label": "Está presente onde a população e as empresas mais precisam (tem forte capilaridade)",
+      "rawLabel": "Está presente onde a população e as empresas mais precisam (tem forte capilaridade)",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_10": {
+      "position": 67,
+      "label": "É uma marca altamente preparada para o ensino digital",
+      "rawLabel": "É uma marca altamente preparada para o ensino digital",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_11": {
+      "position": 68,
+      "label": "É amplamente reconhecida pela qualidade de seus cursos a distância (EAD) no país",
+      "rawLabel": "É amplamente reconhecida pela qualidade de seus cursos a distância (EAD) no país",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_12": {
+      "position": 69,
+      "label": "É aberta ao diálogo e fácil de se relacionar (eixo relacionamento)",
+      "rawLabel": "É aberta ao diálogo e fácil de se relacionar (eixo relacionamento)",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_13": {
+      "position": 70,
+      "label": "Mantém uma comunicação clara e próxima da população (eixo comunicação)",
+      "rawLabel": "Mantém uma comunicação clara e próxima da população (eixo comunicação)",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_14": {
+      "position": 71,
+      "label": "Divulga de forma eficiente as suas soluções, cursos e projetos para a população (eixo comunicação)",
+      "rawLabel": "Divulga de forma eficiente as suas soluções, cursos e projetos para a população (eixo comunicação)",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_15": {
+      "position": 72,
+      "label": "Prepara as pessoas para os empregos do futuro",
+      "rawLabel": "Prepara as pessoas para os empregos do futuro",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_16": {
+      "position": 73,
+      "label": "Acompanha as mudanças tecnológicas e digitais da sociedade",
+      "rawLabel": "Acompanha as mudanças tecnológicas e digitais da sociedade",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_17": {
+      "position": 74,
+      "label": "Está preparada para o avanço da inteligência artificial no mundo do trabalho",
+      "rawLabel": "Está preparada para o avanço da inteligência artificial no mundo do trabalho",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_18": {
+      "position": 75,
+      "label": "Ajuda profissionais a se manterem empregáveis diante das transformações do mercado",
+      "rawLabel": "Ajuda profissionais a se manterem empregáveis diante das transformações do mercado",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "T_P13_19": {
+      "position": 76,
+      "label": "É uma instituição moderna e conectada às novas gerações",
+      "rawLabel": "É uma instituição moderna e conectada às novas gerações",
+      "values": {
+        "1": "1- Discorda Totalmente",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - Concorda Totalmente",
+        "6": "NS/NR"
+      }
+    },
+    "P13_1_O1": {
+      "position": 77,
+      "label": "Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição? E em segundo lugar?",
+      "rawLabel": "Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição? E em segundo lugar?",
+      "values": {
+        "1": "Gestão, Governança e Confiança",
+        "2": "Impacto Social e Cidadania",
+        "3": "Excelência em Produtos e Serviços",
+        "4": "Educação a Distância (EAD)",
+        "5": "Comunicação e Relacionamento",
+        "6": "Futuro do trabalho e inovação",
+        "7": "Nenhum desses",
+        "8": "NS/NR"
+      }
+    },
+    "P13_1_O2": {
+      "position": 78,
+      "label": "Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição? E em segundo lugar?",
+      "rawLabel": "Pensando nos seguintes temas relacionados à atuação do SENAC, qual deles é o mais importante para formar sua opinião sobre a instituição? E em segundo lugar?",
+      "values": {
+        "1": "Gestão, Governança e Confiança",
+        "2": "Impacto Social e Cidadania",
+        "3": "Excelência em Produtos e Serviços",
+        "4": "Educação a Distância (EAD)",
+        "5": "Comunicação e Relacionamento",
+        "6": "Futuro do trabalho e inovação",
+        "7": "Nenhum desses",
+        "8": "NS/NR"
+      }
+    },
+    "P14": {
+      "position": 79,
+      "label": "Sobre a sua relação com o SENAC, qual das seguintes frases descreve melhor a sua situação?",
+      "rawLabel": "Sobre a sua relação com o SENAC, qual das seguintes frases descreve melhor a sua situação?",
+      "values": {
+        "1": "Frequento as unidades ou utilizo os serviços de ensino atualmente",
+        "2": "Já frequentei ou utilizei no passado, mas não utilizo mais atualmente",
+        "3": "Nunca frequentei ou utilizou o SENAC",
+        "4": "NS/NR"
+      }
+    },
+    "P15": {
+      "position": 80,
+      "label": "Em qual modalidade de ensino você realizou ou realiza o seu curso principal no SENAC?",
+      "rawLabel": "Em qual modalidade de ensino você realizou ou realiza o seu curso principal no SENAC?",
+      "values": {
+        "1": "100% Presencial",
+        "2": "100% A Distância (EAD / Online)",
+        "3": "Modelo Híbrido / Semipresencial (Parte online, parte na unidade física)",
+        "4": "NS/NR"
+      }
+    },
+    "P15_1": {
+      "position": 81,
+      "label": "Qual o nível do principal curso que você realizou ou realiza no SENAC?",
+      "rawLabel": "Qual o nível do principal curso que você realizou ou realiza no SENAC?",
+      "values": {
+        "1": "Curso Livre / Qualificação Profissional",
+        "2": "Curso Técnico",
+        "3": "Aprendizagem Profissional (Jovem Aprendiz)",
+        "4": "Graduação",
+        "5": "Pós-graduação / MBA",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "P15_2": {
+      "position": 82,
+      "label": "E qual é a situação atual desse curso? O(A) senhor(a)...",
+      "rawLabel": "E qual é a situação atual desse curso? O(A) senhor(a)...",
+      "values": {
+        "1": "Já concluiu",
+        "2": "Ainda está fazendo (em andamento)",
+        "3": "Parou antes de terminar / trancou (interrompido)",
+        "4": "NS/NR"
+      }
+    },
+    "P16": {
+      "position": 83,
+      "label": "Como você avalia a qualidade geral do ensino prestado pelo SENAC a partir da sua experiência? Ela foi/está sendo",
+      "rawLabel": "Como você avalia a qualidade geral do ensino prestado pelo SENAC a partir da sua experiência? Ela foi/está sendo:",
+      "values": {
+        "1": "Ótima",
+        "2": "Boa",
+        "3": "Regular",
+        "4": "Ruim",
+        "5": "Péssima",
+        "6": "NS/NR"
+      }
+    },
+    "P17": {
+      "position": 84,
+      "label": "O quanto você acredita que ter um certificado do SENAC faz diferença real para você conseguir um emprego ou crescer na carreira? Você diria que o peso desse certificado",
+      "rawLabel": "O quanto você acredita que ter um certificado do SENAC faz diferença real para você conseguir um emprego ou crescer na carreira? Você diria que o peso desse certificado:",
+      "values": {
+        "1": "Faz muita diferença positiva / Acelera o crescimento",
+        "2": "Faz alguma diferença / Ajuda um pouco",
+        "3": "Faz pouca diferença / Quase não impacta",
+        "4": "Não faz nenhuma diferença",
+        "5": "NS/NR"
+      }
+    },
+    "P18": {
+      "position": 85,
+      "label": "Qual das seguintes frases melhor descreve a sua opinião no dia a dia a respeito do SENAC? O(A) senhor(a)",
+      "rawLabel": "Qual das seguintes frases melhor descreve a sua opinião no dia a dia a respeito do SENAC? O(A) senhor(a):",
+      "values": {
+        "1": "Falaria bem mesmo que não me perguntassem",
+        "2": "Falaria bem quando me perguntassem",
+        "3": "Falaria de maneira neutra, nem elogiando nem criticando",
+        "4": "Falaria de maneira crítica, quando me perguntassem",
+        "5": "Falaria de maneira crítica, sem que me perguntassem",
+        "6": "NS/NR"
+      }
+    },
+    "P19": {
+      "position": 86,
+      "label": "O(A) senhor(a) já fez ou está fazendo algum curso na modalidade a distância (EAD)?",
+      "rawLabel": "O(A) senhor(a) já fez ou está fazendo algum curso na modalidade a distância (EAD)?",
+      "values": {
+        "1": "Sim",
+        "2": "Não",
+        "3": "NS/NR"
+      }
+    },
+    "P20": {
+      "position": 87,
+      "label": "Qual o nível do principal curso que você já fez ou está fazendo na modalidade a distância (EAD)?",
+      "rawLabel": "Qual o nível do principal curso que você já fez ou está fazendo na modalidade a distância (EAD)?",
+      "values": {
+        "1": "Curso Livre / Qualificação Profissional",
+        "2": "Curso Técnico",
+        "3": "Aprendizagem Profissional (Jovem Aprendiz)",
+        "4": "Graduação",
+        "5": "Pós-graduação / MBA",
+        "6": "Outro",
+        "7": "NS/NR"
+      }
+    },
+    "Q_79_S": {
+      "position": 88,
+      "label": "Qual o nível do principal curso que você já fez ou está fazendo na modalidade a distância (EAD)? [Other (specify)]",
+      "rawLabel": "Qual o nível do principal curso que você já fez ou está fazendo na modalidade a distância (EAD)? [Other (specify)]",
+      "values": {}
+    },
+    "P21": {
+      "position": 89,
+      "label": "E qual é a situação atual desse curso? O(A) senhor(a)..",
+      "rawLabel": "E qual é a situação atual desse curso? O(A) senhor(a)..",
+      "values": {
+        "1": "Já concluiu",
+        "2": "Ainda está fazendo (em andamento)",
+        "3": "Parou antes de terminar / trancou (interrompido)",
+        "4": "NS/NR"
+      }
+    },
+    "P22": {
+      "position": 90,
+      "label": "De maneira geral, qual é a sua opinião sobre fazer cursos profissionais na modalidade a distância (EAD), ou seja, totalmente online pela internet? Você diria que o ensino a distância é",
+      "rawLabel": "De maneira geral, qual é a sua opinião sobre fazer cursos profissionais na modalidade a distância (EAD), ou seja, totalmente online pela internet? Você diria que o ensino a distância é:",
+      "values": {
+        "1": "Ótimo",
+        "2": "Bom",
+        "3": "Regular",
+        "4": "Ruim",
+        "5": "Péssimo",
+        "6": "NS/NR"
+      }
+    },
+    "P23": {
+      "position": 91,
+      "label": "E, comparado ao ensino tradicional presencial? Você diria que o EAD é",
+      "rawLabel": "E, comparado ao ensino tradicional presencial? Você diria que o EAD é:",
+      "values": {
+        "1": "Muito melhor que o ensino presencial",
+        "2": "Um pouco melhor que o ensino presencial",
+        "3": "Igual ao ensino presencial",
+        "4": "Um pouco pior que o ensino presencial",
+        "5": "Muito pior que o ensino presencial",
+        "6": "NS/NR"
+      }
+    },
+    "P24": {
+      "position": 92,
+      "label": "Olhando para os benefícios práticos, qual é o principal motivo que levaria o(a) senhor(a) a escolher fazer um curso EAD em detrimento de um curso presencial? (NÃO LEIA AS OPÇÕES)",
+      "rawLabel": "Olhando para os benefícios práticos, qual é o principal motivo que levaria o(a) senhor(a) a escolher fazer um curso EAD em detrimento de um curso presencial? (NÃO LEIA AS OPÇÕES)",
+      "values": {
+        "1": "Flexibilidade de horários (Poder estudar no período em que tiver tempo disponível)",
+        "2": "Economia financeira direta (Mensalidades e preços mais baratos)",
+        "3": "Otimização de tempo e locomoção (Não ter que pegar trânsito/ônibus até a escola)",
+        "4": "Conciliação com as responsabilidades domésticas ou cuidado com filhos e família",
+        "5": "Possibilidade de estudar em marcas renomadas que ficam em outras cidades ou estados",
+        "6": "Ritmo de estudo autônomo (Avançar nos módulos conforme meu desempenho)",
+        "7": "Outro",
+        "8": "NS/NR"
+      }
+    },
+    "P25": {
+      "position": 93,
+      "label": "E por outro lado, qual é o maior obstáculo, barreira ou receio que faz o(a) senhor(a) REJEITAR ou evitar se matricular em um curso no formato EAD? (NÃO LEIA AS OPÇÕES)",
+      "rawLabel": "E por outro lado, qual é o maior obstáculo, barreira ou receio que faz o(a) senhor(a) REJEITAR ou evitar se matricular em um curso no formato EAD? (NÃO LEIA AS OPÇÕES)",
+      "values": {
+        "1": "Falta de foco, disciplina ou organização própria para manter o ritmo estudando sozinho",
+        "2": "Dificuldades com tecnologia (Problemas de internet, computadores ruins ou sistemas difíceis)",
+        "3": "Percepção de que o aprendizado no online é superficial e ruim para tirar dúvidas",
+        "4": "Ausência de práticas em laboratório (Insegurança de não aprender a profissão na prática)",
+        "5": "Preconceito de mercado (Medo de ter o diploma desvalorizado em uma seleção de emprego)",
+        "6": "Falta de socialização, interação física e networking com outros alunos e professores",
+        "7": "Ausência de um espaço físico silencioso e adequado para concentração dentro de casa",
+        "8": "Outro",
+        "9": "NS/NR"
+      }
+    },
+    "T_P26_1": {
+      "position": 94,
+      "label": "Qualidade do aprendizado",
+      "rawLabel": "Qualidade do aprendizado",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "T_P26_2": {
+      "position": 95,
+      "label": "Absorção de conteúdo",
+      "rawLabel": "Absorção de conteúdo",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "T_P26_3": {
+      "position": 96,
+      "label": "Acompanhamento e a atenção dos professores",
+      "rawLabel": "Acompanhamento e a atenção dos professores",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "T_P26_4": {
+      "position": 97,
+      "label": "Preparação técnica para o mercado de trabalho",
+      "rawLabel": "Preparação técnica para o mercado de trabalho",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "T_P26_5": {
+      "position": 98,
+      "label": "Flexibilidade de horários para estudar",
+      "rawLabel": "Flexibilidade de horários para estudar",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "T_P26_6": {
+      "position": 99,
+      "label": "Possibilidade de fazer contatos profissionais e conhecer pessoas da área",
+      "rawLabel": "Possibilidade de fazer contatos profissionais e conhecer pessoas da área",
+      "values": {
+        "1": "Ensino Presencial",
+        "2": "Ensino a Distância (EAD)",
+        "3": "Nenhum desses",
+        "4": "NS/NR"
+      }
+    },
+    "P27_O1": {
+      "position": 100,
+      "label": "Pensando em informação, no momento em que você está avaliando e pesquisando opções de cursos online na internet para se matricular, qual tipo ou formato de comunicação é o que mais captura o seu interesse e gera confiança imediata?",
+      "rawLabel": "Pensando em informação, no momento em que você está avaliando e pesquisando opções de cursos online na internet para se matricular, qual tipo ou formato de comunicação é o que mais captura o seu interesse e gera confiança imediata?",
+      "values": {
+        "1": "Depoimentos e histórias de ex-alunos que conseguiram emprego",
+        "2": "Vídeos curtos mostrando como é a plataforma por dentro e as aulas",
+        "3": "Detalhes claros sobre o conteúdo das aulas e o que você vai aprender",
+        "4": "Dados oficiais de empregabilidade mostrando quantas empresas contratam alunos da instituição",
+        "5": "Uma aula demonstrativa gratuita para testar antes de comprar",
+        "6": "A lista de empresas parceiras que contratam quem faz o curso",
+        "7": "O currículo, a experiência e a reputação dos professores",
+        "8": "Avaliações e notas do curso em sites de opinião ou redes sociais",
+        "9": "Nenhum desses",
+        "10": "NS/NR"
+      }
+    },
+    "P27_O2": {
+      "position": 101,
+      "label": "Pensando em informação, no momento em que você está avaliando e pesquisando opções de cursos online na internet para se matricular, qual tipo ou formato de comunicação é o que mais captura o seu interesse e gera confiança imediata?",
+      "rawLabel": "Pensando em informação, no momento em que você está avaliando e pesquisando opções de cursos online na internet para se matricular, qual tipo ou formato de comunicação é o que mais captura o seu interesse e gera confiança imediata?",
+      "values": {
+        "1": "Depoimentos e histórias de ex-alunos que conseguiram emprego",
+        "2": "Vídeos curtos mostrando como é a plataforma por dentro e as aulas",
+        "3": "Detalhes claros sobre o conteúdo das aulas e o que você vai aprender",
+        "4": "Dados oficiais de empregabilidade mostrando quantas empresas contratam alunos da instituição",
+        "5": "Uma aula demonstrativa gratuita para testar antes de comprar",
+        "6": "A lista de empresas parceiras que contratam quem faz o curso",
+        "7": "O currículo, a experiência e a reputação dos professores",
+        "8": "Avaliações e notas do curso em sites de opinião ou redes sociais",
+        "9": "Nenhum desses",
+        "10": "NS/NR"
+      }
+    },
+    "P28": {
+      "position": 102,
+      "label": "Pensando no futuro da educação profissional e no crescimento do ensino digital, em quais desses níveis de ensino o(a) senhor(a) avalia que o SENAC tem mais força e credibilidade para oferecer cursos na modalidade a distância (EAD)?",
+      "rawLabel": "Pensando no futuro da educação profissional e no crescimento do ensino digital, em quais desses níveis de ensino o(a) senhor(a) avalia que o SENAC tem mais força e credibilidade para oferecer cursos na modalidade a distância (EAD)?",
+      "values": {
+        "1": "Cursos profissionalizantes de curta duração (Cursos Livres)",
+        "2": "Cursos técnicos",
+        "3": "Graduação e Pós-graduação",
+        "4": "Cursos de aperfeiçoamento profissional",
+        "5": "Todos os níveis",
+        "6": "Nenhum dos níveis",
+        "7": "NS/NR"
+      }
+    },
+    "P29_O1": {
+      "position": 103,
+      "label": "Quando você compara o SENAC com outras instituições privadas de EAD que atuam no mercado, qual você enxerga ser o maior diferencial do SENAC frente aos seus concorrentes?",
+      "rawLabel": "Quando você compara o SENAC com outras instituições privadas de EAD que atuam no mercado, qual você enxerga ser o maior diferencial do SENAC frente aos seus concorrentes?",
+      "values": {
+        "1": "Tradição e a credibilidade do nome SENAC",
+        "2": "O certificado/diploma ser muito respeitado e aceito pelas empresas",
+        "3": "Cursos focados no que o mercado de trabalho realmente precisa",
+        "4": "A qualidade dos professores e instrutores",
+        "5": "A infraestrutura e o suporte oferecidos ao aluno",
+        "6": "A facilidade de conseguir um emprego por ser aluno SENAC",
+        "7": "O preço e o custo-benefício dos cursos",
+        "8": "O SENAC não possui diferenciais, é visto exatamente como as outras instituições privadas de EAD",
+        "9": "NS/NR"
+      }
+    },
+    "P29_O2": {
+      "position": 104,
+      "label": "Quando você compara o SENAC com outras instituições privadas de EAD que atuam no mercado, qual você enxerga ser o maior diferencial do SENAC frente aos seus concorrentes?",
+      "rawLabel": "Quando você compara o SENAC com outras instituições privadas de EAD que atuam no mercado, qual você enxerga ser o maior diferencial do SENAC frente aos seus concorrentes?",
+      "values": {
+        "1": "Tradição e a credibilidade do nome SENAC",
+        "2": "O certificado/diploma ser muito respeitado e aceito pelas empresas",
+        "3": "Cursos focados no que o mercado de trabalho realmente precisa",
+        "4": "A qualidade dos professores e instrutores",
+        "5": "A infraestrutura e o suporte oferecidos ao aluno",
+        "6": "A facilidade de conseguir um emprego por ser aluno SENAC",
+        "7": "O preço e o custo-benefício dos cursos",
+        "8": "O SENAC não possui diferenciais, é visto exatamente como as outras instituições privadas de EAD",
+        "9": "NS/NR"
+      }
+    },
+    "P30": {
+      "position": 105,
+      "label": "Se o(a) senhor(a) decidisse iniciar um curso no SENAC nos próximos meses, qual formato de entrega de aulas você escolheria?",
+      "rawLabel": "Se o(a) senhor(a) decidisse iniciar um curso no SENAC nos próximos meses, qual formato de entrega de aulas você escolheria?",
+      "values": {
+        "1": "SENAC EAD 100% Online: Aulas gravadas e/ou ao vivo pela internet, sem necessidade de ida ao polo.",
+        "2": "SENAC EAD Modelo Híbrido: Teoria pela internet e encontros ou laboratórios práticos na unidade física do SENAC.",
+        "3": "SENAC 100% Presencial: Todas as interações em sala de aula de forma presencial diária.",
+        "4": "NS/NR"
+      }
+    },
+    "P31": {
+      "position": 106,
+      "label": "Qual é a real probabilidade de o(a) senhor(a) se matricular em um curso EAD do SENAC nos próximos 2 anos?",
+      "rawLabel": "Qual é a real probabilidade de o(a) senhor(a) se matricular em um curso EAD do SENAC nos próximos 2 anos?",
+      "values": {
+        "1": "Com certeza irei me matricular",
+        "2": "Muito provavelmente irei me matricular",
+        "3": "Pouco provável que eu me matricule",
+        "4": "Com certeza NÃO irei me matricular",
+        "5": "NS/NR"
+      }
+    },
+    "T_P32_1": {
+      "position": 107,
+      "label": "Cursos Profissionalizantes / Livres (Curta duração, rápidos e práticos)",
+      "rawLabel": "Cursos Profissionalizantes / Livres (Curta duração, rápidos e práticos)",
+      "values": {
+        "1": "Muito interesse",
+        "2": "Algum interesse",
+        "3": "Pouco ou nenhum interesse",
+        "4": "NS/NR"
+      }
+    },
+    "T_P32_2": {
+      "position": 108,
+      "label": "Cursos Técnicos (Formação de nível médio profissionalizante)",
+      "rawLabel": "Cursos Técnicos (Formação de nível médio profissionalizante)",
+      "values": {
+        "1": "Muito interesse",
+        "2": "Algum interesse",
+        "3": "Pouco ou nenhum interesse",
+        "4": "NS/NR"
+      }
+    },
+    "T_P32_3": {
+      "position": 109,
+      "label": "Graduação / Faculdade (Tecnólogo superior ou bacharelado digital)",
+      "rawLabel": "Graduação / Faculdade (Tecnólogo superior ou bacharelado digital)",
+      "values": {
+        "1": "Muito interesse",
+        "2": "Algum interesse",
+        "3": "Pouco ou nenhum interesse",
+        "4": "NS/NR"
+      }
+    },
+    "T_P32_4": {
+      "position": 110,
+      "label": "Pós-Graduação / MBA (Especialização digital para quem já tem diploma superior)",
+      "rawLabel": "Pós-Graduação / MBA (Especialização digital para quem já tem diploma superior)",
+      "values": {
+        "1": "Muito interesse",
+        "2": "Algum interesse",
+        "3": "Pouco ou nenhum interesse",
+        "4": "NS/NR"
+      }
+    },
+    "T_P32_5": {
+      "position": 111,
+      "label": "Cursos de Aperfeiçoamento (Atualização profissional rápida para quem já trabalha)",
+      "rawLabel": "Cursos de Aperfeiçoamento (Atualização profissional rápida para quem já trabalha)",
+      "values": {
+        "1": "Muito interesse",
+        "2": "Algum interesse",
+        "3": "Pouco ou nenhum interesse",
+        "4": "NS/NR"
+      }
+    },
+    "P33_O1": {
+      "position": 112,
+      "label": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "rawLabel": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "values": {
+        "1": "Redes Sociais do SENAC (Instagram, Facebook, etc.)",
+        "2": "Site oficial do SENAC (Portal nacional ou estadual)",
+        "3": "E-mail marketing ou Newsletter do SENAC",
+        "4": "Aplicativo do SENAC",
+        "5": "WhatsApp do SENAC",
+        "6": "Cartazes/avisos dentro das próprias unidades do SENAC",
+        "7": "Revistas / Informativos Impressos do SENAC",
+        "8": "Televisão",
+        "9": "Rádio",
+        "10": "Jornais/revistas impressas ou online",
+        "11": "Site ou portais e blogs na internet",
+        "12": "Indicação de amigos, parentes ou colegas de trabalho (Boca a boca)",
+        "13": "Redes Sociais (Instagram, Facebook, etc.)",
+        "14": "Ferramentas de busca na Internet (Google, Bing etc.)",
+        "15": "Outras",
+        "16": "NS/NR"
+      }
+    },
+    "P33_O2": {
+      "position": 113,
+      "label": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "rawLabel": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "values": {
+        "1": "Redes Sociais do SENAC (Instagram, Facebook, etc.)",
+        "2": "Site oficial do SENAC (Portal nacional ou estadual)",
+        "3": "E-mail marketing ou Newsletter do SENAC",
+        "4": "Aplicativo do SENAC",
+        "5": "WhatsApp do SENAC",
+        "6": "Cartazes/avisos dentro das próprias unidades do SENAC",
+        "7": "Revistas / Informativos Impressos do SENAC",
+        "8": "Televisão",
+        "9": "Rádio",
+        "10": "Jornais/revistas impressas ou online",
+        "11": "Site ou portais e blogs na internet",
+        "12": "Indicação de amigos, parentes ou colegas de trabalho (Boca a boca)",
+        "13": "Redes Sociais (Instagram, Facebook, etc.)",
+        "14": "Ferramentas de busca na Internet (Google, Bing etc.)",
+        "15": "Outras",
+        "16": "NS/NR"
+      }
+    },
+    "P33_O3": {
+      "position": 114,
+      "label": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "rawLabel": "Por quais canais de comunicação você preferiria receber novidades ou ofertas de cursos de instituições como o SENAC?",
+      "values": {
+        "1": "Redes Sociais do SENAC (Instagram, Facebook, etc.)",
+        "2": "Site oficial do SENAC (Portal nacional ou estadual)",
+        "3": "E-mail marketing ou Newsletter do SENAC",
+        "4": "Aplicativo do SENAC",
+        "5": "WhatsApp do SENAC",
+        "6": "Cartazes/avisos dentro das próprias unidades do SENAC",
+        "7": "Revistas / Informativos Impressos do SENAC",
+        "8": "Televisão",
+        "9": "Rádio",
+        "10": "Jornais/revistas impressas ou online",
+        "11": "Site ou portais e blogs na internet",
+        "12": "Indicação de amigos, parentes ou colegas de trabalho (Boca a boca)",
+        "13": "Redes Sociais (Instagram, Facebook, etc.)",
+        "14": "Ferramentas de busca na Internet (Google, Bing etc.)",
+        "15": "Outras",
+        "16": "NS/NR"
+      }
+    },
+    "PF7": {
+      "position": 115,
+      "label": "Aproximadamente, qual das faixas de valores que eu vou ler, melhor representa a sua renda mensal pessoal?",
+      "rawLabel": "Aproximadamente, qual das faixas de valores que eu vou ler, melhor representa a sua renda mensal pessoal?",
+      "values": {
+        "1": "Até R$ 1.621,00 (até 1 SM)",
+        "2": "De R$ 1.621,01 a R$ 3.242,00 (mais de 1 até 2 SM)",
+        "3": "De R$ 3.242,01 a R$ 4.863,00 (mais de 2 até 3 SM)",
+        "4": "De R$ 4.863,01 a R$ 8.105,00 (mais de 3 até 5 SM)",
+        "5": "Mais de R$ 8.105,01 (mais de 5 SM)",
+        "6": "Sem rendimento",
+        "7": "Prefiro não responder/Recusa",
+        "8": "NS/NR"
+      }
+    },
+    "PF8": {
+      "position": 116,
+      "label": "E qual destas mesmas faixas de valores melhor representa a renda mensal familiar na sua residência? Considere todas as pessoas que contribuem de alguma forma para o pagamento de despesas em casa.",
+      "rawLabel": "E qual destas mesmas faixas de valores melhor representa a renda mensal familiar na sua residência? Considere todas as pessoas que contribuem de alguma forma para o pagamento de despesas em casa.",
+      "values": {
+        "1": "Até R$ 1.621,00 (até 1 SM)",
+        "2": "De R$ 1.621,01 a R$ 3.242,00 (mais de 1 até 2 SM)",
+        "3": "De R$ 3.242,01 a R$ 4.863,00 (mais de 2 até 3 SM)",
+        "4": "De R$ 4.863,01 a R$ 8.105,00 (mais de 3 até 5 SM)",
+        "5": "Mais de R$ 8.105,01 (mais de 5 SM)",
+        "6": "Sem rendimento",
+        "7": "Prefiro não responder/Recusa",
+        "8": "NS/NR"
+      }
+    },
+    "PF9": {
+      "position": 117,
+      "label": "Qual é o seu estado civil?",
+      "rawLabel": "Qual é o seu estado civil?",
+      "values": {
+        "1": "Casado(a) / União estável",
+        "2": "Solteiro(a)",
+        "3": "Separado(a) / Divorciado(a)",
+        "4": "Viúvo(a)",
+        "5": "Recusou responder"
+      }
+    },
+    "PF10": {
+      "position": 118,
+      "label": "Você possui filhos? Se sim, quantos?",
+      "rawLabel": "Você possui filhos? Se sim, quantos?",
+      "values": {
+        "1": "1 filho(a)",
+        "2": "2 filhos",
+        "3": "3 filhos",
+        "4": "4 filhos",
+        "5": "5 filhos ou mais",
+        "6": "Recusou responder",
+        "7": "Não possui filhos"
+      }
+    },
+    "PF11": {
+      "position": 119,
+      "label": "Você se identifica como sendo uma pessoa com deficiência?",
+      "rawLabel": "Você se identifica como sendo uma pessoa com deficiência?",
+      "values": {
+        "1": "Sim",
+        "2": "Não",
+        "3": "Prefiro não declarar"
+      }
+    },
+    "PF12_O1": {
+      "position": 120,
+      "label": "Qual ou quais tipos de deficiência você possui?",
+      "rawLabel": "Qual ou quais tipos de deficiência você possui?",
+      "values": {
+        "1": "Deficiência física",
+        "2": "Deficiência mental ou intelectual",
+        "3": "Deficiência visual",
+        "4": "Deficiência auditiva",
+        "5": "Prefiro não declarar"
+      }
+    },
+    "PF12_O2": {
+      "position": 121,
+      "label": "Qual ou quais tipos de deficiência você possui?",
+      "rawLabel": "Qual ou quais tipos de deficiência você possui?",
+      "values": {
+        "1": "Deficiência física",
+        "2": "Deficiência mental ou intelectual",
+        "3": "Deficiência visual",
+        "4": "Deficiência auditiva",
+        "5": "Prefiro não declarar"
+      }
+    },
+    "PF12_O3": {
+      "position": 122,
+      "label": "Qual ou quais tipos de deficiência você possui?",
+      "rawLabel": "Qual ou quais tipos de deficiência você possui?",
+      "values": {
+        "1": "Deficiência física",
+        "2": "Deficiência mental ou intelectual",
+        "3": "Deficiência visual",
+        "4": "Deficiência auditiva",
+        "5": "Prefiro não declarar"
+      }
+    },
+    "PF12_O4": {
+      "position": 123,
+      "label": "Qual ou quais tipos de deficiência você possui?",
+      "rawLabel": "Qual ou quais tipos de deficiência você possui?",
+      "values": {
+        "1": "Deficiência física",
+        "2": "Deficiência mental ou intelectual",
+        "3": "Deficiência visual",
+        "4": "Deficiência auditiva",
+        "5": "Prefiro não declarar"
+      }
+    },
+    "PF13": {
+      "position": 124,
+      "label": "Qual a sua religião?",
+      "rawLabel": "Qual a sua religião?",
+      "values": {
+        "1": "Católica Apostólica Romana",
+        "2": "Evangélica (de qualquer denominação)",
+        "3": "Espírita (Kardecista, outras)",
+        "4": "Afro-brasileira (de qualquer denominação)",
+        "5": "Orientais (Budismo, Islamismo, outras)",
+        "6": "Judaica",
+        "7": "Outras religiões",
+        "8": "É religioso, mas não segue nenhuma | Agnóstico",
+        "9": "Ateu, não tem religião",
+        "10": "Não respondeu"
+      }
+    },
+    "PF14": {
+      "position": 125,
+      "label": "Última pergunta: dentre as seguintes alternativas, você se reconhece ou se identifica como de cor ou raça",
+      "rawLabel": "Última pergunta: dentre as seguintes alternativas, você se reconhece ou se identifica como de cor ou raça:",
+      "values": {
+        "1": "Branca",
+        "2": "Preta",
+        "3": "Amarela",
+        "4": "Parda",
+        "5": "Indígena",
+        "6": "Prefere não responder"
+      }
+    },
+    "weights.rf": {
+      "position": 126,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "faixa_etaria": {
+      "position": 127,
+      "label": "Faixa Etária (pf2 recodificada)",
+      "rawLabel": "Faixa Etária (pf2 recodificada)",
+      "values": {
+        "1": "16 a 24 anos",
+        "2": "25 a 40 anos",
+        "3": "41 a 59 anos",
+        "4": "60 anos ou mais"
+      }
+    },
+    "RENDA": {
+      "position": 128,
+      "label": "Renda recodificado",
+      "rawLabel": "Renda recodificado",
+      "values": {
+        "1": "Até 1 S.M.",
+        "2": "Mais de 1 até 2 S.M.",
+        "3": "Mais de 2 até 5 S.M.",
+        "4": "Mais de 5 S.M."
+      }
+    },
+    "ESCOLARIDADE": {
+      "position": 129,
+      "label": "Escolaridade recodificado",
+      "rawLabel": "Escolaridade recodificado",
+      "values": {
+        "1": "Ensino Fundamental",
+        "2": "Ensino Médio",
+        "3": "Ensino Superior"
+      }
+    },
+    "Regiao": {
+      "position": 130,
+      "label": "Regiões do Brasil",
+      "rawLabel": "Regiões do Brasil",
+      "values": {
+        "1": "Norte",
+        "2": "Nordeste",
+        "3": "Sudeste",
+        "4": "Sul",
+        "5": "Centro-Oeste"
+      }
+    },
+    "filhos_cat": {
+      "position": 131,
+      "label": "Categoria de Filhos",
+      "rawLabel": "Categoria de Filhos",
+      "values": {
+        "1": "Possui filhos",
+        "2": "Não possui"
+      }
+    },
+    "P3_1_rec": {
+      "position": 132,
+      "label": "Conhecimento recodificado",
+      "rawLabel": "Conhecimento recodificado",
+      "values": {
+        "1": "Conhece (Muito bem / Bem)",
+        "2": "Conhece pouco",
+        "3": "Só de ouvir falar / Não conhece"
+      }
+    },
+    "P4_1_rec": {
+      "position": 133,
+      "label": "Avaliação recodificada (Positivo/Negativo)",
+      "rawLabel": "Avaliação recodificada (Positivo/Negativo)",
+      "values": {
+        "1": "Positivo",
+        "2": "Negativo"
+      }
+    },
+    "Gestao_Governanca_valido": {
+      "position": 134,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Impacto_Social_valido": {
+      "position": 135,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Excelencia_valido": {
+      "position": 136,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Educacao_a_distancia_valido": {
+      "position": 137,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Comunicacao_valido": {
+      "position": 138,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Futuro_do_trabalho_valido": {
+      "position": 139,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Indicador_Geral_valido": {
+      "position": 140,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Gestao_Governanca_sempeso": {
+      "position": 141,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Impacto_Social_sempeso": {
+      "position": 142,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Excelencia_sempeso": {
+      "position": 143,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Educacao_a_distancia_sempeso": {
+      "position": 144,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Comunicacao_sempeso": {
+      "position": 145,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    },
+    "Futuro_do_Trabalho_sempeso": {
+      "position": 146,
+      "label": "",
+      "rawLabel": "",
+      "values": {}
+    }
+  }
+}
