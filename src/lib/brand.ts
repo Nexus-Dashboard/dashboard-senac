@@ -11,6 +11,9 @@ export const BRAND = {
   survey: "Reputação & Imagem",
   year: "2026",
   storagePrefix: "senac-dash",
+  disclaimer: "Material Confidencial – Para Uso Exclusivo Interno",
+  /** cor de destaque nos arquivos exportados */
+  accent: "#005594",
   loginPlaceholder: "ex.: senac-sp",
   tagline:
     "A opinião da população brasileira e dos empresários do comércio, serviços e turismo sobre o Senac, com a visão do Brasil, da sua região e do seu estado.",
